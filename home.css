@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+main{
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container{
+    
+    min-width: 60%;
+    min-height: 50%;
+    padding: 20px;
+    box-shadow: 1px 1px 15px 3px grey;
+    display: flex;
+}
+
+h1{
+    margin-bottom: 10px;
+    text-shadow: 1px 2px 1px grey;
+}
+
+#div1{
+    padding: 10px;
+    width: 45%;
+    box-shadow: 1px 0px 1px 1px grey;
+}
+
+#div2{
+    justify-content: center;
+    padding-left: 60px;
+    padding-top: 60px;
+    width: 60%;
+    box-shadow: 1px 0px 1px 0px grey;
+}
+
+#div1 label{
+    display: block;
+    margin-top: 5%;
+    font-size: 1.5rem;
+}
+#div2 label{
+    display: inline-block;
+    margin-top: 40px;
+}
+
+#div1 input:first-of-type{
+    max-width: 300px;
+    min-width: 200px;
+    padding: 10px  ;
+    border-radius: 3px;
+    border-color: lightgray;
+    padding-left: 10px;
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+#div1 input{
+    max-width: 150px;
+    min-width: 60px;
+    padding: 10px;
+    border-radius: 3px;
+    border-color: lightgray;
+    padding-left: 10px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+#div2 input:first-of-type{
+    font-size: 2.2rem;
+}
+
+
+#div2 input{
+    max-width: 300px;
+    min-width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 3.5rem;
+    color: black;
+    font-weight: bold;
+    border-color:  white;
+    border-top: 0px white;
+    border-left: 0px white;
+    background-color: white;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.value_button{
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 0;
+    background: lightgray;
+    font-size: 1.5rem;
+}
+
+.value_button:hover{
+    cursor: pointer;
+}
+#decrease{
+    margin-top: -6px;
+    margin-right: -5px;
+    border-radius: 6px 0 0 6px;
+}
+  
+#increase {
+    margin-top: -6px;
+    margin-left: -5px;
+    border-radius: 0 6px 6px 0;
+}
+
+
+button{
+    border-radius: 10px;
+    border-color: grey;
+    padding: 15px 30px;
+    font-size: 1rem;
+    background-color:whitesmoke;
+    box-shadow: 1px 1px 3px 1px #2d3436;
+    margin-top: 30px;
+
+}
+
+
+
