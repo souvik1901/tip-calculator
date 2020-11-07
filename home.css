@@ -12,6 +12,8 @@ main{
     flex-direction: column;
 }
 
+
+//id for main container box 
 #container{
     
     min-width: 60%;
@@ -21,17 +23,23 @@ main{
     display: flex;
 }
 
+
+//heading properties of tip calculator 
 h1{
     margin-bottom: 10px;
     text-shadow: 1px 2px 1px grey;
 }
 
+
+//div1 is the left side container of the tip calculator
 #div1{
     padding: 10px;
     width: 45%;
     box-shadow: 1px 0px 1px 1px grey;
 }
 
+
+//div2 is the right side container of the tip calculator
 #div2{
     justify-content: center;
     padding-left: 60px;
@@ -40,16 +48,25 @@ h1{
     box-shadow: 1px 0px 1px 0px grey;
 }
 
+
+//properties for left side labels i.e bill amount, tip percentage, number of person
 #div1 label{
     display: block;
     margin-top: 5%;
     font-size: 1.5rem;
 }
+
+
+
+//properties for right side labels i.e tip per person, bill per person
 #div2 label{
     display: inline-block;
     margin-top: 40px;
 }
 
+
+
+//input box properties for bill-amount
 #div1 input:first-of-type{
     max-width: 300px;
     min-width: 200px;
@@ -61,6 +78,9 @@ h1{
     text-align: left;
 }
 
+
+
+//input box properties for tip percentage and number of person
 #div1 input{
     max-width: 150px;
     min-width: 60px;
@@ -72,11 +92,13 @@ h1{
     text-align: center;
 }
 
+
+//properties for display of tip per person
 #div2 input:first-of-type{
     font-size: 2.2rem;
 }
 
-
+//properties common for right side display properties
 #div2 input{
     max-width: 300px;
     min-width: 200px;
@@ -93,6 +115,8 @@ h1{
     padding-right: 10px;
 }
 
+
+//increment - decrement buttons properties
 .value_button{
     display: inline-block;
     border: 1px solid #ddd;
@@ -109,12 +133,17 @@ h1{
 .value_button:hover{
     cursor: pointer;
 }
+
+
+//id for decrease buttons
 #decrease{
     margin-top: -6px;
     margin-right: -5px;
     border-radius: 6px 0 0 6px;
 }
-  
+
+
+//id for increase buttons
 #increase {
     margin-top: -6px;
     margin-left: -5px;
@@ -122,6 +151,7 @@ h1{
 }
 
 
+//properties of calculate button
 button{
     border-radius: 10px;
     border-color: grey;
